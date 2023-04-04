@@ -28,7 +28,7 @@ export default function App() {
         setCurrentNumber((firstNumber * lastNumber).toString())
         return
       case '/':
-        setCurrentNumber((firstNumber - lastNumber).toString())
+        setCurrentNumber((firstNumber / lastNumber).toString())
         return
     }
   }
