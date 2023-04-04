@@ -101,14 +101,14 @@ const styles = StyleSheet.create({
     backgroundColor: "#060047"
   },
   resultText: {
-    color: "#282F38",
+    color: "#fff",
     fontSize: 32,
     fontWeight: "bold",
     padding: 12,
     textAlign: "right"
   },
   historyText: {
-    color: "#7c7c7c",
+    color: "#ccc",
     fontSize: 20,
     marginRight: 10,
     alignSelf: 'flex-end',
@@ -118,7 +118,7 @@ const styles = StyleSheet.create({
     flexWrap: 'wrap',
   },
   button: {
-    backgroundColor: 'white',
+    backgroundColor: '#3A1078',
     alignItems: 'center',
     justifyContent: 'center',
     minWidth: 90,
